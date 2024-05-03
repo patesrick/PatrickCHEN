@@ -122,6 +122,7 @@ body {
 	color: white; /* Couleur du texte */
 	text-align: center; /* Centrer le texte */
 	margin-top: 20px; /* Marge en haut pour séparer le texte de l'image */
+	line-height: 0.8; /* Ajustez cette valeur selon vos besoins */
 }
 #presentation {
 	margin-bottom: 10%;
