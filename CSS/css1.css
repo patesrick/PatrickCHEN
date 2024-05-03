@@ -528,13 +528,23 @@ button.owl-next:hover span:after {
 }
 
 .spacer {
-    margin-bottom: 1%; /* Marge inférieure */
+	margin-bottom: 1%; /* Marge inférieure */
 	border-color: #013328;
 	border-width: 5px;
 	opacity: 1;
 	width: 60%;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+footer {
+	background-color: #013328;
+	height: 5%;
+}
+
+footer p{
+	color: #E3DCD2;
+	text-align: center;
 }
 
 @media screen and (max-width: 992px) {
