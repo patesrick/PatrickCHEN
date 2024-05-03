@@ -446,77 +446,6 @@ button.owl-next:hover span:after {
 	left: -15px;
 }
 
-@media screen and (max-width: 992px) {
-	.navbar {
-	background-color: #013328 !important;
-	max-height:600px;
-	overflow-y: scroll;
-	}
-    .timeline{
-        margin: 50px auto;
-    }
-    .timeline::after{
-        left: 31px;
-    }
-    .timebox{
-        width: 100%;
-        padding-left: 80px;
-        padding-right: 25px;
-    }
-    .text-box{
-        font-size: 13px;
-
-    }
-    .text-box small{
-        margin-bottom: 10px;
-    }
-    .right-container{
-        left: 0;
-    }
-    .left-container img, .right-container img{
-        left: 10px;
-    }
-    .left-container-arrow, .right-container-arrow{
-        border-right: 15px solid #FFFFFF;
-        border-left: 0;
-        left: -15px;
-    }
-	.rectangle h3 {
-		color: #E3DCD2;
-		text-align: center;
-		font-weight: bold;
-		position: relative;
-		top: 70%; /* Ajustez cette valeur selon votre besoin */
-		transform: translateY(-50%);
-	}
-
-
-	
-}
-
-@media screen and (max-width: 767px) {
-	.profil img {
-	max-width: 100%;
-	height: auto;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	border-radius: 50%;
-	}
-	.presentation-table {
-        display: block;
-    }
-
-    .texte_presentation,
-    .profil {
-        display: block;
-        width: 100%;
-    }
-}
-
-
-
-
 .rectangle {
 	max-width: 280px; /* Largeur du rectangle, prendra toute la largeur du conteneur */
 	height: 200px; /* Hauteur du rectangle */
@@ -605,4 +534,85 @@ button.owl-next:hover span:after {
 	width: 60%;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+@media screen and (max-width: 992px) {
+	.navbar {
+	background-color: #013328 !important;
+	max-height:600px;
+	overflow-y: scroll;
+	}
+    .timeline{
+        margin: 50px auto;
+    }
+    .timeline::after{
+        left: 31px;
+    }
+    .timebox{
+        width: 100%;
+        padding-left: 80px;
+        padding-right: 25px;
+    }
+    .text-box{
+        font-size: 13px;
+
+    }
+    .text-box small{
+        margin-bottom: 10px;
+    }
+    .right-container{
+        left: 0;
+    }
+    .left-container img, .right-container img{
+        left: 10px;
+    }
+    .left-container-arrow, .right-container-arrow{
+        border-right: 15px solid #FFFFFF;
+        border-left: 0;
+        left: -15px;
+    }
+	.rectangle h3 {
+		color: #E3DCD2;
+		text-align: center;
+		font-weight: bold;
+		position: relative;
+		top: 70%; /* Ajustez cette valeur selon votre besoin */
+		transform: translateY(-50%);
+	}
+	.liste_projet {
+	    display: flex;
+	    justify-content: center; /* Horizontally center columns */
+	}
+	
+	.row {
+		display: flex;
+		flex-direction: column; /* Stack columns vertically */
+		align-items: center; /* Center items horizontally */
+	}
+	
+	.col {
+		width: 100%; /* Take up full width */
+		max-width: 280px; /* Max width of each column */
+		margin-bottom: 20px; /* Add some space between columns */
+	}	
+}
+
+@media screen and (max-width: 767px) {
+	.profil img {
+	max-width: 100%;
+	height: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 50%;
+	}
+	.presentation-table {
+        display: block;
+    }
+
+    .texte_presentation,
+    .profil {
+        display: block;
+        width: 100%;
+    }
 }
