@@ -480,7 +480,10 @@ button.owl-next:hover span:after {
 .projet3,
 .projet4,
 .projet5,
-.projet6 {
+.projet6,
+.projet7,
+.projet8,
+.projet9 {
 	position: relative;
 	overflow: hidden;
 	cursor: pointer;
@@ -492,7 +495,10 @@ button.owl-next:hover span:after {
 .projet3:hover,
 .projet4:hover,
 .projet5:hover,
-.projet6:hover {
+.projet6:hover,
+.projet7:hover,
+.projet8:hover,
+.projet9:hover {
 	transform: scale(1.05); /* Zoom au survol */
 }
 
